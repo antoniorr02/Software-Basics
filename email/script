@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for persona in $1
+do
+	mail -s "Correo" $persona < $2
+done

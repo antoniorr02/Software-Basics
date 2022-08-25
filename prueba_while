@@ -1,0 +1,10 @@
+#!/bin/bash
+
+numero=50
+
+while (( $numero <= 100 ));
+do
+	echo "$numero"
+	((numero++))
+#numero=`expr $numero + 1`
+done
